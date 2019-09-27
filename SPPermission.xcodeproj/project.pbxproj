@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361D6175233E45730069E021 /* SPPermissionBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D6174233E45730069E021 /* SPPermissionBluetooth.swift */; };
 		F4824FEA22ABAAB700A0A487 /* Configuration.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F4824FE922ABAAB700A0A487 /* Configuration.xcconfig */; };
 		F4F8D4CF22A6E8F500C32329 /* SPPermissionPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F8D4A822A6E8F500C32329 /* SPPermissionPhotoLibrary.swift */; };
 		F4F8D4D022A6E8F500C32329 /* SPPermissionLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F8D4A922A6E8F500C32329 /* SPPermissionLocation.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		361D6174233E45730069E021 /* SPPermissionBluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPPermissionBluetooth.swift; sourceTree = "<group>"; };
 		F4824FE922ABAAB700A0A487 /* Configuration.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Configuration.xcconfig; sourceTree = "<group>"; };
 		F4F8D4A822A6E8F500C32329 /* SPPermissionPhotoLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionPhotoLibrary.swift; sourceTree = "<group>"; };
 		F4F8D4A922A6E8F500C32329 /* SPPermissionLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionLocation.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				F4F8D4B022A6E8F500C32329 /* SPPermissionReminders.swift */,
 				F4F8D4B122A6E8F500C32329 /* SPPermissionSpeech.swift */,
 				F4F8D4B222A6E8F500C32329 /* SPPermissionCalendar.swift */,
+				361D6174233E45730069E021 /* SPPermissionBluetooth.swift */,
 			);
 			path = Permissions;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				F4F8D4D622A6E8F500C32329 /* SPPermissionMotion.swift in Sources */,
 				F4F8D4DE22A6E8F500C32329 /* SPPermissionStyleShadow.swift in Sources */,
 				F4F8D4E922A6E8F500C32329 /* SPPermissionDraw.swift in Sources */,
+				361D6175233E45730069E021 /* SPPermissionBluetooth.swift in Sources */,
 				F4F8D4D522A6E8F500C32329 /* SPPermissionMicrophone.swift in Sources */,
 				F4F8D4E822A6E8F500C32329 /* SPPermissionDrawIconPack.swift in Sources */,
 				F4F8D4D322A6E8F500C32329 /* SPPermissionCamera.swift in Sources */,

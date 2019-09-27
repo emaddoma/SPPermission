@@ -142,6 +142,12 @@ extension SPPermission {
             #else
                 fatalError(self.error(for: permission))
             #endif
+        case .bluetooth:
+            #if SPPERMISSION_BLUETOOTH
+                return SPBluetoothPermission()
+            #else
+                fatalError(self.error(for: permission))
+            #endif
         }
     }
     

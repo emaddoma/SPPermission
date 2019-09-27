@@ -35,6 +35,7 @@ import UIKit
     case locationAlwaysAndWhenInUse = 10
     case motion = 11
     case mediaLibrary = 12
+    case bluetooth = 13
     
     var name: String {
         switch self {
@@ -62,6 +63,8 @@ import UIKit
             return "Motion"
         case .mediaLibrary:
             return "Media Library"
+        case .bluetooth:
+            return "Bluetooth"
         }
     }
     
@@ -91,6 +94,8 @@ import UIKit
             return "NSMotionUsageDescription"
         case .mediaLibrary:
             return "NSAppleMusicUsageDescription"
+        case .bluetooth:
+            return "NSBluetoothAlwaysUsageDescription"
         }
     }
 }

@@ -428,6 +428,8 @@ extension SPPermissionDialogController {
             return "Allow to report motion and environment-related data"
         case .mediaLibrary:
             return "Allow to check your media"
+        case .bluetooth:
+            return "Allow to use Bluetooth"
         }
     }
 }

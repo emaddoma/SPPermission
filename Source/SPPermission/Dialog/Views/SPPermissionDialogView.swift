@@ -191,6 +191,8 @@ class SPPermissionDialogLineView: UIView {
                 self.iconView.type = .windmill
             case .mediaLibrary:
                 self.iconView.type = .headphones
+            case .bluetooth:
+                self.iconView.type = .compass
             }
         }
         
