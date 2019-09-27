@@ -76,4 +76,9 @@ Pod::Spec.new do |s|
     ml.pod_target_xcconfig = { "SWIFT_ACTIVE_COMPILATION_CONDITIONS"  => "SPPERMISSION_MEDIALIBRARY" }
   end
 
+  s.subspec 'Bluetooth' do |ml|
+    ml.dependency 'SPPermission/Core'
+    ml.pod_target_xcconfig = { "SWIFT_ACTIVE_COMPILATION_CONDITIONS"  => "SPPERMISSION_BLUETOOTH" }
+  end
+
 end
